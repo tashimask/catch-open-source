@@ -1,0 +1,60 @@
+{
+    "deviceOrientation": "portrait",
+    "openDataContext": "openDataContext",
+    "networkTimeout": {
+        "request": 5000,
+        "connectSocket": 5000,
+        "uploadFile": 5000,
+        "downloadFile": 500000
+    },
+    "plugins": {
+        "Layout": {
+            "version": "1.0.14",
+            "provider": "wx7a727ff7d940bb3f",
+            "contexts": [
+                {
+                    "type": "openDataContext",
+                    "path": "openDataContext"
+                }
+            ]
+        }
+    },
+    "subpackages": [
+        {
+            "name": "audio",
+            "root": "subpackages/audio/"
+        },
+        {
+            "name": "font",
+            "root": "subpackages/font/"
+        },
+        {
+            "name": "resources",
+            "root": "subpackages/resources/"
+        },
+        {
+            "name": "main",
+            "root": "subpackages/main/"
+        },
+        {
+            "name": "game",
+            "root": "subpackages/game/"
+        },
+        {
+            "name": "icon",
+            "root": "subpackages/icon/"
+        },
+        {
+            "name": "ui",
+            "root": "subpackages/ui/"
+        },
+        {
+            "name": "__ccWasmAssetSubpkg__",
+            "root": "cocos-js/assets/"
+        },
+        {
+            "name": "__ccWasmChunkSubpkg__",
+            "root": "cocos-js/chunks/"
+        }
+    ]
+}
